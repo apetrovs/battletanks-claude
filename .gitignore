@@ -1,0 +1,15 @@
+# Godot
+.godot/
+*.import.tmp
+export_credentials.cfg
+*.apk
+*.aab
+*.keystore
+
+# Build output (keep the folder itself)
+builds/*
+!builds/.gitkeep
+
+# OS / editor
+.DS_Store
+*.swp

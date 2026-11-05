@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="TankStats" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/entities/tank_stats.gd" id="1_stats"]
+
+[resource]
+script = ExtResource("1_stats")
+speed = 48.0
+max_hp = 1
+fire_cooldown = 0.25
+bullet_speed = 170.0
+bullet_power = 1
+max_bullets = 1
+body_color = Color(0.91, 0.75, 0.25, 1)
+track_color = Color(0.45, 0.38, 0.2, 1)
